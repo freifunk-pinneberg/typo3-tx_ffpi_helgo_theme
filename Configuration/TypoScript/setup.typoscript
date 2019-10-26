@@ -1,0 +1,4 @@
+plugin.tx_ffpinodecounter {
+    settings.nodeListFile = http://karte.helgoland.freifunk.net/data/nodes.json
+    settings.nodeListExternal = TRUE
+}
