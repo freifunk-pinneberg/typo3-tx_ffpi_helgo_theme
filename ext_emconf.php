@@ -2,7 +2,7 @@
 $EM_CONF[$_EXTKEY] = array(
     'title'            => 'Freifunk Helgoland Theme',
     'description'      => 'Theme for Freifunk Helgoland',
-    'category'         => 'plugin',
+    'category'         => 'distribution',
     'author'           => 'Kevin Quiatkowski',
     'author_email'     => 'kevin@pinneberg.freifunk.net',
     'author_company'   => 'Freifunk Pinneberg',

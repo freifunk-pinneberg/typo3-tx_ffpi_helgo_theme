@@ -2,17 +2,12 @@
 plugin.ffpi_theme {
 
     // cat=ffpi; type=int+; label= Page ID for footer navigation
-    footernavigation.pid = 34
-    iconnavigation.pid = 15
-    mainnavigation.pid = 1
-
-    // cat=ffpi; type=int+; label= Page ID for donation page
-    donation.pid = 56
-    // cat=ffpi; type=string; label= Label for donation overlay
-    donation.label = Schon gespendet?
+    footernavigation.pid = 125
+    iconnavigation.pid = 134
+    mainnavigation.pid = 123
 
     // cat=ffpi; type=file; label= Header logo
-    header.logo.path = /fileadmin/layout/ffpi/bilder/logo.svg
+    header.logo.path = EXT:ffpi_helgo_theme/ext_icon.svg
     // cat=ffpi; type=string; label= Header logo alt text
     header.logo.alt = Freifunk Helgoland Logo
     // cat=ffpi; type=string; label= Header logo link title
@@ -25,3 +20,7 @@ plugin.ffpi_theme {
 
 # Default
 plugin.ffpi_theme.baseurl = //helgoland.freifunk.net
+[globalString =  IENV:HTTP_HOST = helgoland.freifunk.net.local]
+    #Development
+    plugin.ffpi_theme.baseurl = //helgoland.freifunk.net.local/
+[global]
