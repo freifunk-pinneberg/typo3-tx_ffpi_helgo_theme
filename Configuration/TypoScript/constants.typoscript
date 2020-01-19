@@ -18,9 +18,10 @@ plugin.ffpi_theme {
     header.subtitle = Freies WLAN auf Helgoland
 }
 
-# Default
-plugin.ffpi_theme.baseurl = //helgoland.freifunk.net
-[globalString =  IENV:HTTP_HOST = helgoland.freifunk.net.local]
-    #Development
-    plugin.ffpi_theme.baseurl = //helgoland.freifunk.net.local/
-[global]
+[siteLanguage("twoLetterIsoCode") == "en"]
+    plugin.ffpi_theme.header.subtitle = Free WiFi in on Helgoland
+[condition]
+
+plugin.tx_ffpinodeupdates_freifunkapifile {
+    persistence.storagePid = 113
+}
