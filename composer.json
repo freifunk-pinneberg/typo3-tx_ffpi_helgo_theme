@@ -26,7 +26,9 @@
     "typo3/cms-core": "8.7.0 - 9.5.99"
   },
   "extra": {
-    "extension-key": "ffpi_helgo_theme"
+    "typo3/cms": {
+      "extension-key": "ffpi_helgo_theme"
+    }
   },
   "autoload": {
     "psr-4": {
