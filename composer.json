@@ -2,6 +2,8 @@
   "name": "ffpi/ffpi-helgo-theme",
   "description": "Theme for Freifunk Helgoland",
   "homepage": "https://pinneberg.freifunk.net",
+  "license": "GPL-3.0",
+  "type": "typo3-cms-extension",
   "authors": [
     {
       "name": "Kevin Quiatkowski",
@@ -16,14 +18,15 @@
     "Helgoland",
     "Theme"
   ],
-  "license": "GPL-3.0",
-  "type": "typo3-cms-extension",
   "replace": {
     "ffpi_helgo_theme": "self.version",
     "ffpi/ffpi-helgo-theme": "self.version"
   },
   "require": {
     "typo3/cms-core": "8.7.0 - 9.5.99"
+  },
+  "extra": {
+    "extension-key": "ffpi_helgo_theme"
   },
   "autoload": {
     "psr-4": {
