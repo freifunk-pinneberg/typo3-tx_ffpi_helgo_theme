@@ -24,8 +24,8 @@ plugin.ffpi_theme {
 
 [siteLanguage("twoLetterIsoCode") == "en"]
   plugin.ffpi_theme.header.subtitle = Free WiFi in on Helgoland
-[condition]
+[global]
 
-  plugin.tx_ffpinodeupdates_freifunkapifile {
-    persistence.storagePid = 113
-  }
+plugin.tx_ffpinodeupdates_freifunkapifile {
+  persistence.storagePid = 113
+}
