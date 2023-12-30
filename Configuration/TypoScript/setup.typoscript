@@ -3,4 +3,9 @@ plugin.tx_ffpinodecounter_counter {
   settings.nodeListExternal = TRUE
 }
 
+## ------- Favicon
 page.headerData.40.value = <link rel="icon" type="image/svg+xml" href="/typo3conf/ext/ffpi_helgo_theme/ext_icon.svg" sizes="any">
+
+## ------- Mastodon
+page.headerData.50 = TEXT
+page.headerData.50.dataWrap =
