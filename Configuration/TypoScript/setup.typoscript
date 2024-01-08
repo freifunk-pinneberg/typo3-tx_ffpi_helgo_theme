@@ -2,6 +2,7 @@ plugin.tx_ffpinodecounter_counter {
   settings.nodeListFile = http://karte.helgoland.freifunk.net/data/nodes.json
   settings.nodeListExternal = TRUE
 }
+plugin.tx_ffpinodecounter_cachedcounter.settings < plugin.tx_ffpinodecounter_counter.settings
 
 ## ------- Favicon
 page.headerData.40.value = <link rel="icon" type="image/svg+xml" href="/typo3conf/ext/ffpi_helgo_theme/ext_icon.svg" sizes="any">
