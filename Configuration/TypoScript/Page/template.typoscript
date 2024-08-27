@@ -1,0 +1,26 @@
+## ------- Favicon
+page.headerData.40.value = <link rel="icon" type="image/svg+xml" href="/typo3conf/ext/ffpi_helgo_theme/ext_icon.svg" sizes="any">
+
+## ------- Mastodon
+page.headerData.50 >
+
+## ---------- Analytics --------
+page.footerData.50 = TEXT
+page.footerData.50.value (
+<!-- statistics -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  _paq.push(["setDomains", ["*.helgoland.freifunk.net"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="/stats/";
+    _paq.push(['setTrackerUrl', u+'hello.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'hello.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="/stats/hello.php?idsite=4&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End statistics Code -->
+)

@@ -1,6 +1,7 @@
 plugin.tx_ffpinodecounter.view {
   templateRootPaths.1 = EXT:ffpi_theme/Resources/Private/Templates/Nodecounter/
 }
+plugin.tx_ffpinodecounter.settings.nodeListFile = http://karte.helgoland.freifunk.net/data/nodes.json
 plugin.tx_ffpinodecounter_counter {
   settings.nodeListFile = http://karte.helgoland.freifunk.net/data/nodes.json
   settings.nodeListExternal = TRUE

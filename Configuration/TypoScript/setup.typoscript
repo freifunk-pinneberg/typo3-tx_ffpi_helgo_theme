@@ -1,8 +1,2 @@
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:ffpi_helgo_theme/Configuration/TypoScript/Plugins/" extensions="typoscript">
-
-## ------- Favicon
-page.headerData.40.value = <link rel="icon" type="image/svg+xml" href="/typo3conf/ext/ffpi_helgo_theme/ext_icon.svg" sizes="any">
-
-## ------- Mastodon
-page.headerData.50 = TEXT
-page.headerData.50.dataWrap =
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:ffpi_helgo_theme/Configuration/TypoScript/Page/" extensions="typoscript">
