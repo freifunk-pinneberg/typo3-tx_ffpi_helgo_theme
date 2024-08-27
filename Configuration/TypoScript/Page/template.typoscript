@@ -10,6 +10,7 @@ page.footerData.50.value (
 <!-- statistics -->
 <script type="text/javascript">
   var _paq = window._paq = window._paq || [];
+  _paq.push(['setRequestMethod', 'POST']);
   _paq.push(["setDomains", ["*.helgoland.freifunk.net"]]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
