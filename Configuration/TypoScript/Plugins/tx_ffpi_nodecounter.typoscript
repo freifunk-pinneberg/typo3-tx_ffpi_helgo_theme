@@ -1,0 +1,9 @@
+plugin.tx_ffpinodecounter.view {
+  templateRootPaths.1 = EXT:ffpi_theme/Resources/Private/Templates/Nodecounter/
+}
+plugin.tx_ffpinodecounter.settings.nodeListFile = https://meshviewer.helgoland.freifunk.net/data/nodes.json
+plugin.tx_ffpinodecounter_counter {
+  settings.nodeListFile = https://meshviewer.helgoland.freifunk.net/data/nodes.json
+  settings.nodeListExternal = TRUE
+}
+plugin.tx_ffpinodecounter_cachedcounter.settings < plugin.tx_ffpinodecounter_counter.settings
