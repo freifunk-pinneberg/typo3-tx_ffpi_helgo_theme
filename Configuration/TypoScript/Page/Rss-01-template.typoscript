@@ -1,0 +1,10 @@
+
+# rss template anpassen
+temp.rssTemplate = COA
+temp.rssTemplate.1.title = Freifunk Helgoland News
+temp.rssTemplate.1.description = Neues aus dem Helgoländer Freifunk Netz.
+temp.rssTemplate.1.copyright = CC-BY-SA - Freifunk Helgoland
+temp.rssTemplate.1.image_description = Freifunk Helgoland
+temp.rssTemplate.1.image_url = fileadmin/layout/helgoland/Facebook_preview.png
+temp.rssTemplate.1.item_author = Freifunk Helgoland
+temp.rssTemplate.1.item_author_email = service@pinneberg.freifunk.net
