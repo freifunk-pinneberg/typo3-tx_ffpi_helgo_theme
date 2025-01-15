@@ -8,10 +8,10 @@ $EM_CONF[$_EXTKEY] = [
     'author_email' => 'kevin@pinneberg.freifunk.net',
     'author_company' => 'Freifunk Pinneberg',
     'state' => 'stable',
-    'version' => '1.2.0',
+    'version' => '1.2.1',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.0-10.4.99',
+            'typo3' => '8.7.0-11.4.99',
             'ffpi_theme' => '',
         ],
         'conflicts' => [],
