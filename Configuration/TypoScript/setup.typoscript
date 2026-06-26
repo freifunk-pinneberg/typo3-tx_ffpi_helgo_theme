@@ -1,2 +1,2 @@
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:ffpi_helgo_theme/Configuration/TypoScript/Plugins/" extensions="typoscript">
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:ffpi_helgo_theme/Configuration/TypoScript/Page/" extensions="typoscript">
+@import 'EXT:ffpi_helgo_theme/Configuration/TypoScript/Plugins/*.typoscript'
+@import 'EXT:ffpi_helgo_theme/Configuration/TypoScript/Page/*.typoscript'
